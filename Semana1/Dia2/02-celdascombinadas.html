@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Celdas combinadas</title>
+</head>
+<body>
+    <!-- > para componentes hijos
+        {} para texto visible para el usuario
+        ^ para subir un nivel
+        * para multiplicar
+        + para poner un elemento en el mismo nivel
+     -->
+    <header>
+        <h1>Celdas combinadas</h1>
+    </header>
+    <nav>
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#miseccion1">Ir a demostracion 1</a></li>
+            <li><a href="#miseccion2">Ir a demostracion 2</a></li>
+            <li><a href="#miseccion3">Ir a demostracion 3</a></li>
+        </ul>
+    </nav>
+    <!-- main>section#miseccion1 
+        
+    Abreviatura EMMET 
+    # definir el id
+    . definir la clase-->
+    <main>
+        <section id="miseccion1">
+            <h3>Celdas combinadas</h3>
+            <table border="1">
+                <tbody>
+                    <!-- tr*5>td -->
+                    <tr>
+                        <td colspan="2">Fila 1 columna 1 y 2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Fila 2 columna 1 y 2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Fila 3 columna 1 y 2</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Fila 4 columna 1</td>
+                        <td>Fila 4 columna 2</td>
+                    </tr>
+                    <tr>
+                        <td>Fila 5 columna 2</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="miseccion2">
+            <h3>Mi seccion 2</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Tabla Avanzada</th>
+                        <th colspan="2">Cabecera Multiples Columnas</th>
+                        
+                    </tr>
+                    <tr>
+                        <th>Primera col. cab.</th>
+                        <th>Segunda col. cab.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Fila 1</th>
+                        <td>Fila 1 Columna 1</td>
+                        <td>Fila 1 Columna 2</td>
+                    </tr>
+                    <tr>
+                        <th>Fila 2</th>
+                        <td>Fila 2 Columna 1</td>
+                        <td>Fila 2 Columna 2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Pie de tabla</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section id="miseccion3">
+            <h3>Mi seccion 3</h3>
+            <table border="1">
+                <thead></thead>
+                <tr>
+                    <td>Fila 1 col 1</td>
+                    <td>Fila 1 col 2</td>
+                    <td>Fila 1 col 3</td>
+                </tr>
+                <tbody></tbody>
+                <tr>
+                    <td colspan="2">Fila 2 col 1 y 2</td>
+                    <td>Fila 2 col 3</td>
+                </tr>
+                <tr>
+                    <td>Fila 3 col 1</td>
+                    <td colspan="2">Fila 3 col 2 y 3</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Fila 4 col 1, 2 y 3</td>
+                </tr>
+                <tfoot></tfoot>
+                <tr>
+                    <td rowspan="2">Fila 5 y fila 6</td>
+                    <td>Fila 5 col 2</td>
+                    <td rowspan="2">Fila 5 y fila 6 col 1</td>
+                </tr>
+                <tr>
+                    <td>Fila 6 col 2</td>                    
+                </tr>
+            </table>
+        </section>
+    </main>
+    
+</body>
+</html>
