@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Tipos de selectores</title>
+        <link rel="stylesheet" type="text/css" href="02-selectores.css"/>
+    </head>
+    <body>
+        <!-- header>h1{Titulo de la seccion}^nav>ul>(li>a[href]{link})*3 -->
+        <header>
+            <h1>Titulo de la seccion</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+                <li><a href="">link</a></li>
+            </ul>
+        </nav>
+        <!-- main>section>h2{Titulo seccion}^article>h3{Titulo del articulo}>p -->
+        <main>
+            <section>
+                <h2>Titulo seccion</h2>
+            
+            <article>
+                <h3 class="tituloarticulo borde">
+                    Titulo del articulo 
+                </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas magni officia et labore beatae sit laudantium itaque nihil molestias voluptates cupiditate esse quidem alias quam officiis dicta, ea ex repudiandae.</p>
+                
+            </article>
+            </section>
+            <section>
+                <h2>Titulo seccion</h2>
+            
+            <article>
+                <h3 class="tituloarticulo borde">
+                    Titulo del articulo
+                </h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas magni officia et labore beatae sit laudantium itaque nihil molestias voluptates cupiditate esse quidem alias quam officiis dicta, ea ex repudiandae.</p>
+    
+            </article>
+            </section>
+
+        </main>
+        <footer>
+            <section id="links">
+                <ul>
+                    <li>Link</li>
+                    <li>Link</li>
+                    <li>Link</li>
+                </ul>
+            </section>
+            <section id="contacto">
+                <form>
+                    <label>Nombre:</label>
+                    <input type="text"/>
+                    <br/>
+                    <label>Correo:</label>
+                    <input type="text"/>
+                    <br/>
+                    <label>Mensaje:</label>
+                    <textarea cols="30" rows="10"></textarea>
+                </form>
+            </section>
+        </footer>
+    </body>
+</html>

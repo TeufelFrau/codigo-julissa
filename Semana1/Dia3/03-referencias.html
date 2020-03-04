@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Selectores con referencias</title>
+    <link rel="stylesheet" href="03-referencias.css">
+</head>
+<body>
+    <header>
+        <h1 class="texto-grande">Selectores de elementos</h1>
+    </header>
+    <nav>
+        <ul>
+            <!-- li*3>a[href]{Link} -->
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Link</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2 class="texto-grande">Titulo de la seccion</h2>
+            <article>
+                <h3>Titulo del articulo</h3>
+                <p name="parrafo1">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi adipisci provident ut eos vitae non officiis cum fuga doloribus, officia, voluptas, perferendis iusto obcaecati eum nemo ex fugit? Obcaecati, quos!
+                </p>
+            </article>
+        </section>
+        <section>
+            <h2 class="texto-grande">Titulo de la seccion</h2>
+            <article>
+                <h3 class="aqua">Titulo del articulo</h3>
+                <p name="parrafo2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi adipisci provident ut eos vitae non officiis cum fuga doloribus, officia, voluptas, perferendis iusto obcaecati eum nemo ex fugit? Obcaecati, quos!
+                </p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section class="aqua">
+            <ul>
+                <li>Link</li>
+                <li>Link</li>
+                <li>Link</li>
+            </ul>
+
+        </section>
+        <section id="contacto">
+            <form>
+                <label>Nombre:</label>
+                <input name="nombre" type="text" placeholder="Nombre..."/>
+                <br/>
+                <label for="email">Correo:</label>
+                <input id="email" type="email" placeholder="Email..."/>
+                <br/>
+                <label>Mensaje</label>
+                <textarea cols="20" rows="10"></textarea>
+                <br/>
+            </form>
+        </section>
+    </footer>
+</body>
+</html>
