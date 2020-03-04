@@ -1,0 +1,21 @@
+p{
+    border: 1px solid slateblue;
+}
+.parrafo1{
+    width: 50%;
+    background-color: #cc05d4;
+    color: seashell;
+}
+
+.parrafo2{
+    text-align: center;
+    word-spacing: 2px;
+}
+
+.parrafo3{
+    font-family: 'Finger Paint', cursive;
+    text-align: right;
+    height: 50px;
+    overflow-x: hidden;
+
+}

@@ -1,0 +1,93 @@
+@font-face{
+    font-family: "mifuente";
+    src: url('firstorder.ttf');
+}
+
+
+code {
+    color: purple;
+}
+
+.c-font-family{
+    font-family: 'Lobster', cursive;
+}
+
+.c-font-size{
+    font-size: 150%;
+    color: green;
+
+}
+
+.c-font-weight{
+    font-weight: bold;
+    font-family: "mifuente";
+}
+
+.c-font-style{
+    font-style: italic;
+}
+
+.c-font{
+    font: oblique bold 20px 'Arial';
+}
+
+.c-text-align{
+    text-align: center;
+}
+
+.c-text-align-last{
+    text-align-last: right;
+}
+
+.c-letter-spacing{
+    letter-spacing: 20px;
+}
+
+.c-word-spacing{
+    word-spacing: 10px;
+}
+
+.c-line-height{
+    line-height: 0px;
+}
+
+.c-vertical-align{
+    vertical-align: text-bottom;
+}
+
+.c-rgb{
+    color: rgb(120, 255, 215);
+}
+
+.c.rgba{
+    color: rgba(120, 255, 154, 0.418);
+}
+
+/* 
+dashed => es punteado pero lineal
+dotted => punteado pero con puntos de separacion
+ */
+
+.c-bordepunteado{
+    border: 1px dotted #ff5100;
+}
+
+.c-width{
+    width: 110%;
+}
+
+.c-height{
+    height: 20px;
+}
+
+.c-overflow{
+    overflow: scroll;
+}
+
+.c-overflow-x{
+    overflow-x: auto;
+}
+
+.c-overflow-y{
+    overflow-y: hidden;
+}
