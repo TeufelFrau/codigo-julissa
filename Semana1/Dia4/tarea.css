@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* IMPORTANTE
+    Border box me permitira poner el borde que yo defina  */
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: lightblue;
+}
+
+.container{
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 2px solid  #148b9e;
+}
+
+.superior{
+    height: 200px;
+    background-color: #17a2b8;
+    padding: 50px 0;
+
+}
+
+.foto{
+    width: 100px;
+    height: 100px;
+    margin: 40px auto;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-image: url(./foto.jpg);
+    background-size: 100%;
+}
+
+.medio2{
+    border-top: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.lorem{
+    text-align: center;
+    padding: 20px;
+    color: #212557;
+}
+
+.medio h4{
+    font-family: 'Sofia', cursive;
+    color:#212529;
+    font-size: 20px;
+    text-align: center;
+}
+
+.medio h5{
+    font-family: 'Sofia', cursive;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.medio{
+    background-color: white;
+
+}
+
+.follow{
+    background-color: #2ba643;
+    color: white;
+    border-radius: 10%;
+    padding: 7px ;
+}
+
+.sendmessage{
+    background-color: #19a0bc;
+    color: white;
+    border-radius: 10%;
+    padding: 7px;
+}
+
+
+.inferior{
+    background-color: #17a2b8;
+    padding: 25px;
+    font-family: 'Sofia', cursive;
+
+}
+
+table{
+    margin-top: 10px;
+    margin: auto;
+}
+
+td{
+    padding: 3px;
+}
+td:first-child{
+    font-weight: bold;
+}
+
+.iconos{
+    text-align: center;
+}
+
+
