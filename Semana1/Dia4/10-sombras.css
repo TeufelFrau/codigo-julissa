@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+header{
+    margin:20px auto;
+    width: 600px;
+    border: 1px solid #197870;
+    /* color tamaño-x  tamaño-y  difuminacion(blur)*/
+    box-shadow: red 10px 5px 10px;
+}
