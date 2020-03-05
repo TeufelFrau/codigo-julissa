@@ -1,12 +1,53 @@
 /* los elementos impares */
+p{
+    color: orange;
+}
+
+/* p:last-child
+{
+    letter-spacing: 20px;
+} */
+
+p:nth-child(4){
+    letter-spacing: 20px;
+}
+
 p:nth-child(odd)
 {   
-    background-color: lightgray;
+    /* background-color: lightgray; */
+    font-weight: bold;
 }
+
+
 /* los elementos pares */
 p:nth-child(even)
 {
-    background-color: skyblue;
+    /* background-color: skyblue; */
+    font-size: 2em;
+    color: orange;
+}
+
+/* LISTA */
+
+
+li:nth-child(odd)
+{   
+    /* background-color: lightgray; */
+    font-weight: bold;
+}
+
+
+/* los elementos pares */
+li:nth-child(even)
+{
+    /* background-color: skyblue; */
+    font-size: 2em;
+    color: orange;
+}
+
+li:last-child
+{
+    letter-spacing: 20px;
 }
 
 
