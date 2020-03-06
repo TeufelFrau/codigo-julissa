@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+div{
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+#wrapper{
+    background: -webkit-linear-gradient(top right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+   
+    
+}
+
+#masthead{
+    height: 100px;
+    width: 95.5%;
+    background-color: salmon;
+}
+
+#tCol{
+    width: 30%;
+    display: inline-block;
+    height: 200px;
+    float: left;
+    background-color: rgb(210, 136, 253) ;
+}
+
+#rtCol{
+    width: 60%;
+    display: inline-block;
+    height: 600px;
+}
+
+#mainContent{
+    width: 64%;
+    display: inline-block;
+    height: 570px;
+    background-color: rgb(243, 218, 196);
+}
+
+#sidebar{
+    width: 20%;
+    display: inline-block;
+    height: 570px;
+    background-color: rgb(140, 128, 223);
+}
+
+#footer{
+    height: 50px;
+    background-color: rgb(158, 201, 218);
+}

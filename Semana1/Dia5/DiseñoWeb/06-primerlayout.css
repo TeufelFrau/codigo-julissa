@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* para que se ajuste al tamaño que yo le diga */
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+html, body{
+    height: 100%;
+}
+header{
+    background-color: skyblue;
+    height: 150px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    width: 906px;
+    margin: auto;
+}
+
+aside{
+    background-color: salmon;
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    float: left;
+    
+}
+
+img{
+    float: left;
+    padding: 20px;
+}
+
+section{
+    background-color: orange;
+    width: 700px;
+    height: 500px;
+    display: inline-block;
+    font-family: "mifuente2";
+}
+footer{
+    background-color: skyblue;
+    width: 100%;
+}
+
+.divfooter{
+    background-color: steelblue;
+    display: inline-block;
+    height: 100px;
+    width: 33%;
+}
+
+
+
+@font-face{
+    font-family: "mifuente";
+    src: url('Fearlessly\ \(DEMO\).ttf');
+}
+
+@font-face{
+    font-family: "mifuente2";
+    src: url('MiddleAges_PERSONAL_USE.ttf');
+}
+
+h1{
+    font-weight: bold;
+    font-family: "mifuente";
+    font-size: 60px
+
+
+
