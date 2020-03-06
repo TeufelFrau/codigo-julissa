@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    height: 100%;
+}
+
+header{
+    background-color: orange;
+    width: 50%;
+}
+
+.principal{
+    background-color: tomato;
+    height: 100px;
+}
+
+.azul{
+    background-color: blue;
+    height: 150px;
+    width: 300px;
+    /* NUNCA PONER "INLINE" */
+    display: inline-block;
+}
+
+.articulo{
+    background-color: lightgreen;
+    width: 400px;
+    height: 150px;
+    display: inline-block;
+}
+span{
+    border: 1px solid gray;
+    background-color: lightblue;
+    display: block;
+}
+
+.cajas{
+    height: 100px;
+    width: 33%;
+    border: 1px solid red;
+    box-sizing: border-box;
+    /* inline-block siempre me crea un pequeño margen */
+    display: inline-block;
+}
+
+.cajas:nth-child(1){
+    background-color: red;    
+}
+.cajas:nth-child(2){
+    background-color: blue;
+}
+.cajas:nth-child(3){
+    background-color: yellow;
+}

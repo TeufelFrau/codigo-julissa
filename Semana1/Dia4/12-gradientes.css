@@ -10,6 +10,7 @@ header{
     text-align: center;
 }
 
+/* -webkit-lineal-gradient (direccion_gradiente, color1, color2) */
 #lineal{
     /* background: -webkit-linear-gradient(top right, #000, #fff, #0f0); */
     /* background: #9796f0;  fallback for old browsers */ 
@@ -23,18 +24,26 @@ header{
     /* posicion => center, top, bottom, left, right, %
     forma => circle, ellipse
     colores => 2 a mas */
-    background: -webkit-radial-gradient(center, ellipse, #000, #e44, #111);
+    background: -webkit-radial-gradient(center, ellipse, #085078, #85d8ce);
     
     height: 40px;
 }
 /* admite valores entre 1px y 10px */
+/* difuminado */
 p{
     filter: blur(10px);
 }
 /* admite valores entre 0.1 y 1 */
 img{
+    /* admite valores entre 0 y 1 */
+    /* escala de grises mientras mas se aproxime al 1 mas gris sera la imagen */
     filter: grayscale(1);
+    /* usado para determinar el contraste de la imagen, mientras mas se aproxime a 1 
+    sera su contraste natural */
     filter: contrast(0.9);
+    /* Invierte los colores de la imagen con sus negativos, mientras mas se aproxime
+    a 1 sus negativos seran mas intensos */
     filter: invert(0.8);
+    /* En la pagina 127 en el libro, en el pdf reader 1142 */
 }
 

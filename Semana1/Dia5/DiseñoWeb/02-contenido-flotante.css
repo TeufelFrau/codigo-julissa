@@ -1,0 +1,25 @@
+section{
+    background-color: beige;
+}
+section img{
+    float: right;
+}
+
+.repararfloat{
+    clear: both;
+}
+
+
+/* --------------------------------------------------------------------------- */
+
+/* fuente - dafont */
+
+
+@font-face{
+    font-family: "mifuente";
+    src: url('MiddleAges_PERSONAL_USE.ttf');
+}
+h1{
+    font-weight: bold;
+    font-family: "mifuente";
+}

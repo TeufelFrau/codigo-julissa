@@ -1,0 +1,32 @@
+#cajapapa{
+    width: 648px;
+    border: 1px solid green;
+}
+
+
+div{
+    width: 150px;
+    height: 50px;
+    border: 1px solid red;
+    margin: 5px;
+}
+
+#caja1{
+    float: left;
+
+}
+
+#caja2{
+    float: left;
+
+}
+#caja3{
+    float: left;
+
+}
+
+#caja4{
+    float: right;
+
+}
+

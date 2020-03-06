@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.circulo{
+    /* border: 2px solid black; */
+    border-radius: 50%;
+    background-color:red;
+    height: 100px;
+    width: 100px;
+    /* animation-name: referenciar el nombre de mi animacion */
+    /* aca ya configuro la animacion */
+    animation-name: cambiarcolores;
+    /* cuanto va a durar mi animacion */
+    animation-duration: 4s;
+    /* retraso hasta que comience a animarse */
+    animation-delay: 2s;
+    /* va a poner la velocidad de la animacion */
+    animation-timing-function: ease-in;
+}
+
+/* @keyframes esto no cambia */
+@keyframes cambiarcolores{
+    /* #% {propiedad:valor;} */
+    0%{
+        background-color: orange;
+    }
+    25%{
+        background-color: #00bbcc;
+        /* scale, va a escalar mi elemento a partir de 0 a 1+(1.1, 1.2...) en decimales */
+        transform: scale(0.5);
+    }
+    50%{
+        background-color: green;
+        transform: scale(1.3);
+    }
+    75%{
+        background-color: #ff0022;
+        transform: scale(0.2);
+    }
+    100%{
+        background-color: slateblue;
+    }
+}
+
+.cajita{
+    width: 200px;
+    height: 200px;
+    border:1px solid blue;
+    /* animation: me va a agrupar varias propiedades */
+    animation: transformarcaja 6s;
+}
+
+@keyframes transformarcaja{
+    0%{
+        background-color: lightgray;
+        transform:translate(0%, 0%)
+    }
+    25%{
+        background-color: gray;
+        border-radius: 50%;
+        /* movera la posicion de mi elemento */
+        /* 1 solo parametro se movera al eje x */
+        transform: translate(400px);
+    }
+    50%{
+        background-color: lightblue;
+        /* con dos parametros se translate se movera en el eje X y en el eje Y */
+        transform: translate(300px, 500px);
+    }
+    75%{
+        background-color: purple;
+        /* rotate rotara mi elemento segun la cantidad de angulos que yo le diga */
+        /* puedo combinar varias transformaciones separadas por espacio */
+        transform: translate(200px, 200px) rotate(45deg);
+    }
+}
+
+.avion{
+    animation: moveravion 8s;
+    width: 200px;
+    height: 200px;
+
+}
+
+@keyframes moveravion{
+    0%{
+        border: 2px solid red;
+    }
+    25%{
+        transform: translate(600px, 0px);
+    }
+    50%{
+        transform: translate(600px, 400px) rotate(90deg);
+    }
+    75%{
+        transform: translate(0px, 400px) rotate(180deg);
+    }
+    100%{
+        transform: translate(0px, 0px) rotate(270deg);
+    }
+}
