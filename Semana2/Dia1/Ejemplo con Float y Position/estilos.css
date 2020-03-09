@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing:border-box; */
+}
+
+html, body{
+    height: 100%;
+}
+
+#cabeceralogo{
+    width: 96%;
+    padding: 0 2%;
+    height: 150px;
+    background-color: #FF4A4F;
+}
+#cabeceralogo > div{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+
+#cabeceralogo h1{
+    font-family: 'Mogra', cursive;
+    color: bisque;
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+#menuprincipal{
+    width: 96%;
+    height: 50px;
+    padding: 0 2%;
+    background-color: #8CFF8A;
+    border-top: 1px solid rgb(16, 141, 14);
+    border-bottom: 1px solid rgb(16, 141, 14);
+}
+
+#menuprincipal > div{
+    width: 960px;
+    margin: 0 auto;
+}
+
+#menuprincipal li{
+    display: inline-block;
+    height: 35px;
+    /* margin padding - 10px 10px 10px 10px */
+    padding: 15px 10px 0 10px;
+    margin-right: 5px;
+}
+
+#menuprincipal li:hover{
+    background-color: #64CC27;
+    /* sombrea el menu */
+    cursor: pointer;
+}
+
+#menuprincipal a{
+    font: bold 18px Arial;
+    color: #333333;
+    /* quitar el subrayado de los hipervinculos */
+    text-decoration: none;
+}
+
+#listamenu > li{
+    position: relative;
+    display: inline-block;
+}
+
+#listamenu li>ul{
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #8CFF8A;
+    box-shadow: 3px 3px 4px black;
+    border-radius: 0 0 5px 5px;
+    z-index: 999;
+}
+
+#listamenu li:hover ul{
+    display: block;
+}
+
+main{
+    width: 96%;
+    padding: 2%;
+    height: 100%;
+    background-image: url('./assets/fondo3.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    /* overflow: scroll; */
+
+}
+
+main > div{
+    width: 960px;
+    margin: 0 auto;   
+}
+
+#articulosprincipales{
+    float: left;
+    width: 620px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+article{
+    /* acá sucederan cosas */
+    position: relative;
+}
+
+article time{
+    width: 80px;
+    position: absolute;
+    top: -5px;
+    left: -100px;
+    background-color: salmon;
+    padding: 15px 5px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px black;
+}
+
+.numerodia{
+    font: bold 36px 'Sen', Verdana;
+    color: white;
+    text-align: center;
+}
+
+.nombredia{
+    font: 12px Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+article h2{
+    font: bold 28px Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+article p{
+    font: 16px Arial, sans-serif;
+}
+
+figure{
+    margin-bottom: 10px;
+}
+
+figure img{
+    padding: 5px;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+
+.infoadicional{
+    float: right;
+    width: 250px;
+    padding: 20px;
+    background-color: beige;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    width: 96%;
+    padding: 2%;
+    background-color: green;
+}
+
+footer > div{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.recuperar{
+    clear: both;
+}
+
+
+
+
+
+
+
+
