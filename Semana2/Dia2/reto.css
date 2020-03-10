@@ -1,0 +1,39 @@
+.contenedor{
+    width: 900px;
+    height: 430px;
+    border: 1px solid gray;
+    padding: 10px;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.caja{
+    /* height: 100px; */
+    /* width: 100px; */
+    padding: 20px;
+    /* box-sizing: border-box; */
+    border: 1px solid red;
+}
+
+.abajo{
+    border:1px solid blue;
+}
+
+.item1{
+    flex-basis: 50px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.item2{
+    height: 300px;
+    width: 200px;
+    margin: 20px 20px 20px 0px;
+    flex-basis: 100px;
+    flex-grow: 2;
+}
+
+
+

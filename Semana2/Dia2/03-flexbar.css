@@ -14,8 +14,9 @@ html, body{
     width: 100%;
     height: 100px;
     display: flex;
-    padding: 20px;
+    /* padding: 20px; */
     justify-content: space-between;
+    background-color: #100E17;
 }
 
 .logo{
@@ -23,11 +24,13 @@ html, body{
     flex-grow: 1;
     display: flex;
     align-items: center;
+    padding: 0 20px;
 }
 
 .items{
     flex-basis: 600px;
     flex-grow: 6;
+    display: flex;
 }
 
 .buscar{
@@ -35,7 +38,76 @@ html, body{
     flex-grow: 1;
 }
 
+.logo i{
+    color: #ff8a00;
+}
+
 .logo span{
     font-family: 'Indie Flower', cursive;
     font-size: 26px;
+    color: white;
 }
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* 1.- necesitamos una manera de obtener elemento por elemento
+2.- hover
+3.- color */
+
+.item:hover{
+    background-color: #302c29;
+}
+
+.item:nth-child(1):hover{
+    color:blue;
+}
+.item:nth-child(2):hover{
+    color:green;
+}
+.item:nth-child(3):hover{
+    color:yellow;
+}
+.item:nth-child(4):hover{
+    color:orange;
+}
+.item:nth-child(5):hover{
+    color:red;
+}
+
+.buscar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscar input{
+    width: 120px;
+    height: 25px;
+    border-radius: 10px 0 0 10px;
+    background-color: #201c29;
+    border: 1px solid gray;
+}
+
+.buscar button{
+    width: 25px;
+    height: 25px;
+    border-radius: 0 10px 10px 0;
+    /* background-color: #ff8a00; */
+    background: -webkit-linear-gradient(top right, #ff8a00, #ff5e00);  /* Chrome 10-25, Safari 5.1-6 */
+   
+}
+
+.buscar i{
+    color: white;
+}
+

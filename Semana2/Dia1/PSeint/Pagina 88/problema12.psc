@@ -7,6 +7,14 @@ Algoritmo problema12
 	hextra2=0
 	Si htrab>50 Entonces
 		Escribir "No esta permitido trabajar mas de 50 horas.."
+		//triple
+		hextra1=5
+		triple=15
+		//doble
+		hextra2=5
+		doble=10
+		//horas trabajadas
+		htrab=40
 	SiNo
 		Si htrab>=46 Entonces
 			hextra1=htrab-45
@@ -26,8 +34,8 @@ Algoritmo problema12
 				Escribir "No trabajo horas extra..."
 			Fin Si
 		Fin Si
+		htrab=htrab-(hextra1+hextra2)
 	Fin Si
-	htrab=htrab-(hextra1+hextra2)
 	sueldo=phora*(htrab+doble+triple)
 	Escribir "Su sueldo final es ", sueldo
 FinAlgoritmo
