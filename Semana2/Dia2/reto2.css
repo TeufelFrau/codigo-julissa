@@ -1,0 +1,48 @@
+.tabla{
+    display: flex;
+}
+
+thead{
+    display: flex;
+    border: 1px solid orange;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+tbody{
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+.cajas{
+    height: 140px;
+    width: 140px;
+}
+
+.caja1{
+    
+}
+
+.caja2{
+
+}
+
+.caja3{
+    flex-basis: 180px;
+    height: 10px;
+}
+
+.caja4{
+    flex-basis: 180px;
+    height: 140px;
+}
+
+.caja5{
+
+}
