@@ -1,0 +1,38 @@
+.grande, .mediano, .chico{
+    width: 300px;
+    height: 300px;
+    border: 1px solid gray;
+}
+
+.grande{
+    background-color: aquamarine;
+}
+
+.mediano{
+    background-color: peru;
+}
+
+.chico{
+    background-color: lawngreen;
+}
+/* @media screen| print and ( condicional) */
+@media screen and (max-width:900px) {
+    /* lo que vaya aqui adentro será como una hoja de estilos nueva */
+    .grande{
+        background-color: blue;
+    }
+}
+
+@media screen and (max-width:768px){
+    .mediano{
+        background-color: orangered;
+    }
+}
+
+@media screen and (max-width:480px){
+    .mediano{
+        background-color: yellow;
+        font-size: 40px;
+    }
+}
+
