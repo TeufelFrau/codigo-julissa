@@ -1,0 +1,53 @@
+
+footer{
+    width: 96%;
+    padding: 2%;
+    background-color: white;
+    border: 1px solid black;
+}
+
+footer > div{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.pie{
+    align-items: center;
+}
+
+.pie1{
+    padding: 0px 40px;
+    font-size: 26px;
+}
+
+.pie2{
+    padding: 0px 40px;
+    font-size: 26px;
+}
+
+.pie3{
+    padding: 0px 40px;
+    font-size: 26px;
+}
+
+.pie4{
+    padding: 0px 40px;
+}
+
+.pie .pie1:hover{
+    background-color: gray;
+    /* sombrea el menu */
+    cursor: pointer;
+}
+
+.pie .pie2:hover{
+    background-color: gray;
+    /* sombrea el menu */
+    cursor: pointer;
+}
+
+.pie .pie3:hover{
+    background-color: gray;
+    /* sombrea el menu */
+    cursor: pointer;
+}
