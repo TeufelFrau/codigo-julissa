@@ -1,0 +1,127 @@
+/* MODULO 4 - ABAJO */
+.cat1{
+    height: 180px;
+}
+
+.tr1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.tr2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+table div{
+    margin: 10px;
+}
+
+.columna1{
+    background-color: rgb(147, 221, 147);
+    width: 250px;
+}
+
+.columna2{
+    background-color: rgb(129, 129, 211);
+    width: 230px;
+}
+
+.columna3{
+    background-color: rgb(233, 129, 129);
+    width: 300px;
+}
+
+.des1{
+    text-align: center;
+}
+
+.div1{
+    margin: 20px 0px;
+}
+
+/* BUTTON - SUBIR VIDEO */
+
+.subirvideo{
+    background-color: rgb(25, 158, 25);
+    font-size: 17px;
+    color: white;
+    height: 40px;
+    width: 160px;
+    border-radius: 5px;
+    margin: 0px 0px 20px 0px;
+}
+
+.tabla1{
+    display: flex;
+    justify-content: center;
+}
+
+.div1{
+    display: flex;
+    justify-content: left;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+}
+
+/* FOOTER */
+
+
+footer{
+    width: 96%;
+    padding: 2%;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 0;
+}
+
+footer > div{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.pie{
+    align-items: center;
+}
+
+.pie1{
+    padding: 0px 40px;
+    font-size: 26px;
+}
+
+.pie2{
+    padding: 0px 40px;
+    font-size: 26px;
+}
+
+.pie3{
+    padding: 0px 40px;
+    font-size: 26px;
+}
+
+.pie4{
+    padding: 0px 40px;
+}
+
+.pie .pie1:hover{
+    background-color: gray;
+    /* sombrea el menu */
+    cursor: pointer;
+}
+
+.pie .pie2:hover{
+    background-color: gray;
+    /* sombrea el menu */
+    cursor: pointer;
+}
+
+.pie .pie3:hover{
+    background-color: gray;
+    /* sombrea el menu */
+    cursor: pointer;
+}

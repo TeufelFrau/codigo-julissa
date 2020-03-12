@@ -20,7 +20,3 @@ else{
 }
 
 console.log("fin...");
-
-//OPERADORES
-
-// a == b ... comparación
